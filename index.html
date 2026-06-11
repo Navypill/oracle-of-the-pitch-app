@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oracle of the Pitch — World Cup 2026 Prophecies</title>
+  <meta name="description" content="The ancient oracle has studied the celestial ledger. Get your absurd World Cup 2026 match prophecy and share it." />
+  <meta property="og:title" content="Oracle of the Pitch 🔮" />
+  <meta property="og:description" content="The cosmos has already decided. We merely translate. Get your World Cup 2026 prophecy." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0a0612" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@400;600&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+  <style>
+    :root {
+      --gold: #c9a84c;
+      --gold-light: #f0d080;
+      --gold-dim: #7a6030;
+      --deep: #0a0612;
+      --mid: #12091e;
+      --purple: #1e0d35;
+      --glow: #9b59f7;
+      --text: #e8dfc8;
+      --text-dim: #9a8f7a;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--deep);
+      color: var(--text);
+      font-family: 'Crimson Pro', serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Starfield */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(255,255,255,0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(255,255,255,0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 8%, rgba(255,255,255,0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 60% 25%, rgba(255,255,255,0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 75% 55%, rgba(255,255,255,0.5) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 85% 12%, rgba(255,255,255,0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 92% 70%, rgba(255,255,255,0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 15% 80%, rgba(255,255,255,0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 50% 90%, rgba(255,255,255,0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 30% 60%, rgba(255,255,255,0.5) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 70% 85%, rgba(255,255,255,0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 5% 50%, rgba(255,255,255,0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Nebula */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 20% 30%, rgba(80,30,120,0.4) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 70%, rgba(30,60,100,0.3) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 50%, rgba(20,5,40,0.8) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .wrapper {
+      position: relative;
+      z-index: 1;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* HEADER */
+    .header {
+      text-align: center;
+      margin-bottom: 36px;
+      animation: fadeDown 1s ease both;
+    }
+    .eye-icon {
+      font-size: 52px;
+      line-height: 1;
+      margin-bottom: 8px;
+      display: block;
+      filter: drop-shadow(0 0 12px var(--glow));
+      animation: pulse 3s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%,100% { filter: drop-shadow(0 0 8px var(--glow)); transform: scale(1); }
+      50% { filter: drop-shadow(0 0 24px var(--glow)) drop-shadow(0 0 40px rgba(155,89,247,0.4)); transform: scale(1.05); }
+    }
+    h1 {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: clamp(22px, 5vw, 36px);
+      font-weight: 900;
+      background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 50%, var(--gold-dim) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: 0.02em;
+      line-height: 1.15;
+      margin-bottom: 10px;
+    }
+    .tagline {
+      font-size: 15px;
+      color: var(--text-dim);
+      font-style: italic;
+      letter-spacing: 0.05em;
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      width: 100%;
+      max-width: 400px;
+      margin: 28px auto;
+    }
+    .divider::before, .divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+    }
+    .divider::before { background: linear-gradient(to right, transparent, var(--gold-dim)); }
+    .divider::after  { background: linear-gradient(to left,  transparent, var(--gold-dim)); }
+    .divider-gem { color: var(--gold); font-size: 18px; }
+
+    /* SELECTOR */
+    .selector-panel {
+      width: 100%;
+      background: linear-gradient(135deg, rgba(30,13,53,0.9) 0%, rgba(18,9,30,0.95) 100%);
+      border: 1px solid rgba(201,168,76,0.25);
+      border-radius: 16px;
+      padding: 32px 28px;
+      margin-bottom: 28px;
+      box-shadow: 0 0 40px rgba(155,89,247,0.1), inset 0 1px 0 rgba(255,255,255,0.05);
+      animation: fadeUp 0.8s ease 0.3s both;
+    }
+    .selector-title {
+      font-family: 'Cinzel', serif;
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold-dim);
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .teams-row {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 16px;
+      width: 100%;
+    }
+    .team-select {
+      width: 100%;
+      min-width: 0;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(201,168,76,0.3);
+      border-radius: 8px;
+      color: var(--text);
+      font-family: 'Cinzel', serif;
+      font-size: 13px;
+      padding: 12px 10px;
+      appearance: none;
+      cursor: pointer;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .team-select:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 12px rgba(201,168,76,0.2);
+    }
+    .team-select option { background: #1a0d2e; }
+    .vs-badge {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: 12px;
+      color: var(--gold);
+      background: rgba(201,168,76,0.1);
+      border: 1px solid rgba(201,168,76,0.3);
+      border-radius: 6px;
+      padding: 8px 10px;
+      white-space: nowrap;
+    }
+    .prophesy-btn {
+      width: 100%;
+      background: linear-gradient(135deg, #7b2ff7 0%, #4a1a8f 50%, #2d0f5e 100%);
+      border: 1px solid rgba(155,89,247,0.5);
+      border-radius: 10px;
+      color: #fff;
+      font-family: 'Cinzel', serif;
+      font-size: 15px;
+      letter-spacing: 0.1em;
+      padding: 16px;
+      cursor: pointer;
+      transition: all 0.25s;
+      position: relative;
+      overflow: hidden;
+      margin-top: 8px;
+      text-transform: uppercase;
+    }
+    .prophesy-btn::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 60%);
+      opacity: 0;
+      transition: opacity 0.25s;
+    }
+    .prophesy-btn:hover { box-shadow: 0 0 30px rgba(155,89,247,0.5); transform: translateY(-1px); }
+    .prophesy-btn:hover::before { opacity: 1; }
+    .prophesy-btn:active { transform: translateY(1px); }
+    .prophesy-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+    /* LOADING */
+    .oracle-loading {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      padding: 40px 0;
+      animation: fadeIn 0.4s ease;
+    }
+    .oracle-loading.active { display: flex; }
+    .crystal-ball {
+      font-size: 64px;
+      animation: spin-glow 2s linear infinite;
+    }
+    @keyframes spin-glow {
+      0%   { filter: drop-shadow(0 0 8px #7b2ff7);  transform: scale(1); }
+      25%  { filter: drop-shadow(0 0 20px #c9a84c); transform: scale(1.08); }
+      50%  { filter: drop-shadow(0 0 16px #9b59f7); transform: scale(1); }
+      75%  { filter: drop-shadow(0 0 24px #c9a84c); transform: scale(1.05); }
+      100% { filter: drop-shadow(0 0 8px #7b2ff7);  transform: scale(1); }
+    }
+    .loading-text {
+      font-family: 'Cinzel', serif;
+      font-size: 13px;
+      letter-spacing: 0.15em;
+      color: var(--gold-dim);
+      animation: blink 1.4s ease infinite;
+      text-align: center;
+      padding: 0 20px;
+    }
+    @keyframes blink { 0%,100% { opacity: 0.4; } 50% { opacity: 1; } }
+
+    /* PROPHECY CARD WRAPPER */
+    .prophecy-wrapper {
+      display: none;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      animation: fadeUp 0.6s ease;
+    }
+    .prophecy-wrapper.active { display: flex; }
+
+    /* THE CARD — gets screenshotted */
+    .prophecy-card {
+      width: 100%;
+      background: linear-gradient(160deg, #1a0933 0%, #0d0520 40%, #070312 100%);
+      border: 1px solid var(--gold-dim);
+      border-radius: 20px;
+      padding: 36px 32px;
+      position: relative;
+      overflow: hidden;
+      box-shadow:
+        0 0 60px rgba(155,89,247,0.15),
+        inset 0 1px 0 rgba(255,255,255,0.07),
+        inset 0 -1px 0 rgba(0,0,0,0.3);
+    }
+    .prophecy-card::before, .prophecy-card::after {
+      content: '✦';
+      position: absolute;
+      color: var(--gold-dim);
+      font-size: 20px;
+    }
+    .prophecy-card::before { top: 14px; left: 18px; }
+    .prophecy-card::after  { top: 14px; right: 18px; }
+    .card-corner-bl, .card-corner-br {
+      position: absolute;
+      color: var(--gold-dim);
+      font-size: 20px;
+      bottom: 14px;
+    }
+    .card-corner-bl { left: 18px; }
+    .card-corner-br { right: 18px; }
+    .card-glow {
+      position: absolute;
+      top: -40px; left: 50%;
+      transform: translateX(-50%);
+      width: 200px; height: 200px;
+      background: radial-gradient(circle, rgba(155,89,247,0.2) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .card-header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .card-oracle-label {
+      font-family: 'Cinzel', serif;
+      font-size: 10px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold-dim);
+      margin-bottom: 4px;
+    }
+    .card-title-emoji { font-size: 32px; display: block; margin-bottom: 6px; }
+
+    .card-match {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .card-team {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      flex: 1;
+    }
+    .card-flag { font-size: 42px; line-height: 1; }
+    .card-team-name {
+      font-family: 'Cinzel', serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      color: var(--text);
+      text-align: center;
+    }
+    .card-score-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+    .card-score {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: 38px;
+      font-weight: 900;
+      background: linear-gradient(180deg, var(--gold-light) 0%, var(--gold) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+      letter-spacing: 0.05em;
+    }
+    .card-score-label {
+      font-size: 9px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold-dim);
+    }
+    .card-divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold-dim), transparent);
+      margin: 18px 0;
+    }
+    .card-prophecy-text {
+      font-size: 18px;
+      line-height: 1.65;
+      color: var(--text);
+      font-style: italic;
+      text-align: center;
+      font-weight: 300;
+    }
+    .card-prophecy-text strong {
+      color: var(--gold-light);
+      font-style: normal;
+      font-weight: 400;
+    }
+    .card-factors {
+      margin-top: 20px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(201,168,76,0.12);
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+    .card-factors-title {
+      font-family: 'Cinzel', serif;
+      font-size: 9px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold-dim);
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .card-factor {
+      font-size: 13px;
+      color: var(--text-dim);
+      padding: 5px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .card-factor:last-child { border-bottom: none; }
+    .factor-icon { flex-shrink: 0; opacity: 0.8; }
+    .card-footer {
+      margin-top: 18px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card-site-url {
+      font-family: 'Cinzel', serif;
+      font-size: 10px;
+      letter-spacing: 0.15em;
+      color: var(--gold-dim);
+    }
+    .card-confidence {
+      font-size: 11px;
+      color: var(--text-dim);
+      font-style: italic;
+    }
+
+    /* ACTION BUTTONS */
+    .action-btns {
+      display: flex;
+      gap: 12px;
+      width: 100%;
+    }
+    .action-btn {
+      flex: 1;
+      padding: 14px;
+      border-radius: 10px;
+      font-family: 'Cinzel', serif;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: none;
+    }
+    .btn-share {
+      background: linear-gradient(135deg, #25a244 0%, #1a7a33 100%);
+      color: #fff;
+      border: 1px solid rgba(37,162,68,0.5);
+    }
+    .btn-share:hover { box-shadow: 0 0 20px rgba(37,162,68,0.4); transform: translateY(-1px); }
+    .btn-download {
+      background: rgba(201,168,76,0.1);
+      color: var(--gold);
+      border: 1px solid rgba(201,168,76,0.4);
+    }
+    .btn-download:hover { background: rgba(201,168,76,0.2); box-shadow: 0 0 20px rgba(201,168,76,0.2); transform: translateY(-1px); }
+    .btn-new {
+      background: rgba(255,255,255,0.05);
+      color: var(--text-dim);
+      border: 1px solid rgba(255,255,255,0.12);
+    }
+    .btn-new:hover { background: rgba(255,255,255,0.08); }
+
+    /* AD SLOT */
+    .ad-slot {
+      width: 100%;
+      max-width: 480px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(201,168,76,0.15);
+      border-radius: 6px;
+      padding: 12px;
+      text-align: center;
+      margin-top: 32px;
+      min-height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .ad-slot-label {
+      font-size: 9px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      margin-bottom: 6px;
+    }
+    .ad-placeholder {
+      width: 468px;
+      max-width: 100%;
+      height: 60px;
+      background: rgba(255,255,255,0.04);
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-dim);
+      font-size: 11px;
+      letter-spacing: 0.1em;
+    }
+
+    /* ABOUT */
+    .about-section {
+      width: 100%;
+      margin-top: 40px;
+      padding: 24px 28px;
+      background: rgba(255,255,255,0.02);
+      border: 1px solid rgba(201,168,76,0.1);
+      border-radius: 12px;
+      font-size: 14px;
+      color: var(--text-dim);
+      line-height: 1.8;
+    }
+    .about-section h2 {
+      font-family: 'Cinzel', serif;
+      font-size: 9px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold-dim);
+      margin-bottom: 10px;
+    }
+
+    /* FOOTER */
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 11px;
+      color: rgba(255,255,255,0.15);
+      letter-spacing: 0.05em;
+    }
+
+    /* TOAST */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(80px);
+      background: var(--gold);
+      color: var(--deep);
+      font-family: 'Cinzel', serif;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      padding: 12px 24px;
+      border-radius: 40px;
+      font-weight: 700;
+      transition: transform 0.3s ease;
+      z-index: 100;
+      white-space: nowrap;
+    }
+    .toast.show { transform: translateX(-50%) translateY(0); }
+
+    /* ANIMATIONS */
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 480px) {
+      .prophecy-card { padding: 28px 20px; }
+      .card-flag { font-size: 32px; }
+      .card-score { font-size: 30px; }
+      .card-prophecy-text { font-size: 16px; }
+      .action-btns { flex-direction: column; }
+      .selector-panel { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="wrapper">
+
+  <div class="header">
+    <span class="eye-icon">🔮</span>
+    <h1>Oracle of the Pitch</h1>
+    <p class="tagline">The cosmos has already decided. We merely translate.</p>
+  </div>
+
+  <div class="divider"><span class="divider-gem">✦</span></div>
+
+  <!-- SELECTOR -->
+  <div class="selector-panel" id="selectorPanel">
+    <p class="selector-title">Choose your match — let the stars speak</p>
+    <div class="teams-row">
+      <select class="team-select" id="team1"><option value="">Select Team</option></select>
+      <div class="vs-badge">VS</div>
+      <select class="team-select" id="team2"><option value="">Select Team</option></select>
+    </div>
+    <button class="prophesy-btn" id="prophesyBtn" onclick="seekProphecy()">
+      ✦ Consult the Oracle ✦
+    </button>
+  </div>
+
+  <!-- LOADING -->
+  <div class="oracle-loading" id="loadingState">
+    <div class="crystal-ball">🔮</div>
+    <div class="loading-text" id="loadingText">Aligning the celestial axes…</div>
+  </div>
+
+  <!-- PROPHECY CARD -->
+  <div class="prophecy-wrapper" id="prophecyWrapper">
+
+    <div class="prophecy-card" id="prophecyCard">
+      <div class="card-glow"></div>
+      <span class="card-corner-bl">✦</span>
+      <span class="card-corner-br">✦</span>
+
+      <div class="card-header">
+        <div class="card-oracle-label">Oracle Prophecy — FIFA World Cup 2026</div>
+        <span class="card-title-emoji">🔮</span>
+      </div>
+
+      <div class="card-match">
+        <div class="card-team">
+          <span class="card-flag" id="cardFlag1">🏴</span>
+          <span class="card-team-name" id="cardTeam1">—</span>
+        </div>
+        <div class="card-score-box">
+          <div class="card-score" id="cardScore">?–?</div>
+          <div class="card-score-label">Final Score</div>
+        </div>
+        <div class="card-team">
+          <span class="card-flag" id="cardFlag2">🏴</span>
+          <span class="card-team-name" id="cardTeam2">—</span>
+        </div>
+      </div>
+
+      <div class="card-divider"></div>
+
+      <p class="card-prophecy-text" id="cardProphecyText">The prophecy awaits…</p>
+
+      <div class="card-factors">
+        <div class="card-factors-title">⚗️ Cosmic Factors Considered</div>
+        <div id="cardFactorsList"></div>
+      </div>
+
+      <div class="card-footer">
+        <span class="card-site-url">oracleofthepitch.vercel.app</span>
+        <span class="card-confidence" id="cardConfidence">97.3% certainty</span>
+      </div>
+    </div>
+
+    <div class="action-btns">
+      <button class="action-btn btn-share"    onclick="shareCard()">📲 Share Prophecy</button>
+      <button class="action-btn btn-download" onclick="downloadCard()">💾 Save Image</button>
+    </div>
+    <div class="action-btns">
+      <button class="action-btn btn-new" onclick="resetOracle()">🔄 New Prophecy</button>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM AD -->
+  <div class="ad-slot">
+    <div class="ad-slot-label">Advertisement</div>
+    <div class="ad-placeholder">
+      <!--
+        REPLACE THIS COMMENT WITH YOUR GOOGLE ADSENSE CODE:
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="XXXXXXXXXX" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      -->
+      [ Ad ]
+    </div>
+  </div>
+
+  <!-- ABOUT (helps AdSense approval) -->
+  <div class="about-section">
+    <h2>About the Oracle</h2>
+    <p>The Oracle of the Pitch has studied celestial alignments, consulted the ancient scrolls of football, and cross-referenced seventeen incompatible prophecy systems to bring you the most gloriously unreliable match predictions in World Cup history. All prophecies are for entertainment only. The Oracle accepts no responsibility for arguments, lost bets, or diplomatic incidents caused by these findings. FIFA World Cup 2026 runs from June to July 2026 across the United States, Canada, and Mexico.</p>
+  </div>
+
+  <div class="footer">Oracle of the Pitch · Prophecies are 100% nonsense · FIFA World Cup 2026 · The cosmos accepts no liability.</div>
+
+</div>
+
+<div class="toast" id="toast">Copied!</div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+//  SQUAD DATA — all 48 FIFA World Cup 2026 nations
+//  star: 3 = global superstar (6× weight)
+//        2 = well known (3× weight)
+//        1 = squad player (1× weight)
+// ═══════════════════════════════════════════════════════
+const SQUADS = {
+  "Argentina":  { flag:"🇦🇷", players:[{n:"Lionel Messi",s:3},{n:"Julián Álvarez",s:3},{n:"Lautaro Martínez",s:3},{n:"Enzo Fernández",s:2},{n:"Rodrigo De Paul",s:2},{n:"Alexis Mac Allister",s:2},{n:"Emiliano Martínez",s:2},{n:"Cristian Romero",s:2},{n:"Nicolás Otamendi",s:2},{n:"Paulo Dybala",s:2},{n:"Leandro Paredes",s:2},{n:"Nahuel Molina",s:1},{n:"Marcos Acuña",s:1},{n:"Exequiel Palacios",s:1},{n:"Giovanni Lo Celso",s:1},{n:"Valentin Carboni",s:1},{n:"Nicolás González",s:1},{n:"Franco Colapinto",s:1},{n:"Facundo Buonanotte",s:1}] },
+  "Australia":  { flag:"🇦🇺", players:[{n:"Mat Ryan",s:2},{n:"Harry Souttar",s:2},{n:"Aaron Mooy",s:2},{n:"Mathew Leckie",s:2},{n:"Riley McGree",s:1},{n:"Mitchell Duke",s:1},{n:"Craig Goodwin",s:1},{n:"Jackson Irvine",s:1},{n:"Nestory Irankunda",s:1},{n:"Garang Kuol",s:1},{n:"Lachie Wales",s:1},{n:"Marco Tilio",s:1}] },
+  "Austria":    { flag:"🇦🇹", players:[{n:"David Alaba",s:3},{n:"Marcel Sabitzer",s:2},{n:"Konrad Laimer",s:2},{n:"Marko Arnautovic",s:2},{n:"Michael Gregoritsch",s:1},{n:"Nicolas Seiwald",s:1},{n:"Romano Schmid",s:1},{n:"Xaver Schlager",s:1},{n:"Patrick Wimmer",s:1}] },
+  "Belgium":    { flag:"🇧🇪", players:[{n:"Kevin De Bruyne",s:3},{n:"Romelu Lukaku",s:3},{n:"Thibaut Courtois",s:2},{n:"Jeremy Doku",s:2},{n:"Lois Openda",s:2},{n:"Amadou Onana",s:2},{n:"Charles De Ketelaere",s:2},{n:"Youri Tielemans",s:2},{n:"Leandro Trossard",s:2},{n:"Yannick Carrasco",s:2},{n:"Johan Bakayoko",s:1},{n:"Dodi Lukebakio",s:1},{n:"Malick Fofana",s:1},{n:"Wout Faes",s:1}] },
+  "Bosnia & Herzegovina": { flag:"🇧🇦", players:[{n:"Edin Džeko",s:2},{n:"Ermedin Demirović",s:2},{n:"Sead Kolašinac",s:2},{n:"Amar Dedić",s:1},{n:"Benjamin Tahirović",s:1},{n:"Kerim Alajbegović",s:1}] },
+  "Brazil":     { flag:"🇧🇷", players:[{n:"Vinicius Jr",s:3},{n:"Neymar",s:3},{n:"Raphinha",s:3},{n:"Endrick",s:2},{n:"Lucas Paquetá",s:2},{n:"Bruno Guimarães",s:2},{n:"Marquinhos",s:2},{n:"Alisson",s:2},{n:"Éder Militão",s:2},{n:"Gabriel Martinelli",s:2},{n:"Casemiro",s:2},{n:"Savinho",s:2},{n:"Danilo",s:1},{n:"Bremer",s:1},{n:"João Gomes",s:1},{n:"Matheus Cunha",s:1},{n:"Igor Jesus",s:1}] },
+  "Canada":     { flag:"🇨🇦", players:[{n:"Alphonso Davies",s:3},{n:"Jonathan David",s:3},{n:"Tajon Buchanan",s:2},{n:"Stephen Eustáquio",s:2},{n:"Ismaël Koné",s:2},{n:"Cyle Larin",s:2},{n:"Alistair Johnston",s:1},{n:"Jacob Shaffelburg",s:1},{n:"Liam Millar",s:1},{n:"Tani Oluwaseyi",s:1},{n:"Mathieu Choinière",s:1},{n:"Jonathan Osorio",s:1}] },
+  "Cape Verde": { flag:"🇨🇻", players:[{n:"Garry Rodrigues",s:2},{n:"Jovane Cabral",s:1},{n:"Jamiro Monteiro",s:1},{n:"Patrick Andrade",s:1}] },
+  "Colombia":   { flag:"🇨🇴", players:[{n:"James Rodríguez",s:3},{n:"Luis Díaz",s:3},{n:"Davinson Sánchez",s:2},{n:"David Ospina",s:2},{n:"Juan Cuadrado",s:2},{n:"Cucho Hernández",s:1},{n:"Richard Ríos",s:1},{n:"Daniel Muñoz",s:1},{n:"Jhon Arias",s:1},{n:"Luis Sinisterra",s:1}] },
+  "Congo DR":   { flag:"🇨🇩", players:[{n:"Cédric Bakambu",s:2},{n:"Yannick Bolasie",s:2},{n:"Dodi Lukebakio",s:1},{n:"Gaël Kakuta",s:1},{n:"Dimitri Bisseck",s:1}] },
+  "Croatia":    { flag:"🇭🇷", players:[{n:"Luka Modrić",s:3},{n:"Joško Gvardiol",s:2},{n:"Mateo Kovačić",s:2},{n:"Ivan Perišić",s:2},{n:"Marcelo Brozović",s:2},{n:"Andrej Kramarić",s:2},{n:"Dominik Livaković",s:2},{n:"Nikola Vlašić",s:1},{n:"Lovro Majer",s:1},{n:"Ante Rebić",s:1}] },
+  "Curaçao":    { flag:"🇨🇼", players:[{n:"Leandro Bacuna",s:1},{n:"Cuco Martina",s:1},{n:"Riechedly Bazoer",s:1},{n:"Sheraldo Becker",s:1}] },
+  "Algeria":    { flag:"🇩🇿", players:[{n:"Riyad Mahrez",s:3},{n:"Mohamed Amoura",s:2},{n:"Amine Gouiri",s:2},{n:"Houssem Aouar",s:2},{n:"Ramy Bensebaini",s:2},{n:"Rayan Ait-Nouri",s:2},{n:"Aïssa Mandi",s:2},{n:"Ibrahim Maza",s:2},{n:"Farès Chaïbi",s:1},{n:"Hicham Boudaoui",s:1},{n:"Nabil Bentaleb",s:1},{n:"Ramiz Zerrouki",s:1},{n:"Anis Hadj Moussa",s:1},{n:"Samir Chergui",s:1},{n:"Jaouen Hadjam",s:1}] },
+  "Czechia":    { flag:"🇨🇿", players:[{n:"Patrik Schick",s:2},{n:"Tomáš Souček",s:2},{n:"Adam Hložek",s:1},{n:"Vladimír Coufal",s:1},{n:"Ladislav Krejčí",s:1},{n:"Pavel Šulc",s:1}] },
+  "Ecuador":    { flag:"🇪🇨", players:[{n:"Enner Valencia",s:3},{n:"Moisés Caicedo",s:3},{n:"Piero Hincapié",s:2},{n:"Pervis Estupiñán",s:2},{n:"Gonzalo Plata",s:1},{n:"Jeremy Sarmiento",s:1},{n:"Michael Estrada",s:1},{n:"José Cifuentes",s:1}] },
+  "Egypt":      { flag:"🇪🇬", players:[{n:"Mohamed Salah",s:3},{n:"Omar Marmoush",s:2},{n:"Mohamed Elneny",s:2},{n:"Mostafa Mohamed",s:1},{n:"Emam Ashour",s:1},{n:"Ramadan Sobhi",s:1}] },
+  "England":    { flag:"🏴󠁧󠁢󠁥󠁮󠁧󠁿", players:[{n:"Harry Kane",s:3},{n:"Jude Bellingham",s:3},{n:"Phil Foden",s:3},{n:"Bukayo Saka",s:3},{n:"Declan Rice",s:2},{n:"Marcus Rashford",s:2},{n:"Trent Alexander-Arnold",s:2},{n:"Jordan Pickford",s:2},{n:"John Stones",s:2},{n:"Kobbie Mainoo",s:2},{n:"Ollie Watkins",s:1},{n:"Anthony Gordon",s:1},{n:"Eberechi Eze",s:1},{n:"Kieran Trippier",s:1}] },
+  "France":     { flag:"🇫🇷", players:[{n:"Kylian Mbappé",s:3},{n:"Antoine Griezmann",s:3},{n:"N'Golo Kanté",s:2},{n:"Ousmane Dembélé",s:2},{n:"Aurélien Tchouaméni",s:2},{n:"Eduardo Camavinga",s:2},{n:"Mike Maignan",s:2},{n:"William Saliba",s:2},{n:"Marcus Thuram",s:2},{n:"Michael Olise",s:2},{n:"Jules Koundé",s:2},{n:"Bradley Barcola",s:1},{n:"Warren Zaïre-Emery",s:1},{n:"Kingsley Coman",s:1},{n:"Christopher Nkunku",s:1}] },
+  "Germany":    { flag:"🇩🇪", players:[{n:"Florian Wirtz",s:3},{n:"Jamal Musiala",s:3},{n:"Thomas Müller",s:2},{n:"Leroy Sané",s:2},{n:"Kai Havertz",s:2},{n:"Manuel Neuer",s:2},{n:"Joshua Kimmich",s:2},{n:"İlkay Gündoğan",s:2},{n:"Antonio Rüdiger",s:2},{n:"Toni Kroos",s:2},{n:"Niclas Füllkrug",s:1},{n:"Aleksandar Pavlović",s:1},{n:"Pascal Groß",s:1},{n:"Assan Ouédraogo",s:1}] },
+  "Ghana":      { flag:"🇬🇭", players:[{n:"Thomas Partey",s:3},{n:"Kudus Mohammed",s:2},{n:"Inaki Williams",s:2},{n:"Jordan Ayew",s:2},{n:"André Ayew",s:2},{n:"Ademola Lookman",s:2},{n:"Antoine Semenyo",s:1},{n:"Kamaldeen Sulemana",s:1},{n:"Tariq Lamptey",s:1}] },
+  "Haiti":      { flag:"🇭🇹", players:[{n:"Duckens Nazon",s:1},{n:"Steeven Saba",s:1},{n:"Derrick Etienne",s:1},{n:"James Cantave",s:1},{n:"Wilde Donald Guerrier",s:1}] },
+  "Iran":       { flag:"🇮🇷", players:[{n:"Mehdi Taremi",s:3},{n:"Sardar Azmoun",s:2},{n:"Alireza Jahanbakhsh",s:2},{n:"Saeid Ezatolahi",s:1},{n:"Ehsan Hajsafi",s:1},{n:"Saman Ghoddos",s:1},{n:"Allahyar Sayyadmanesh",s:1}] },
+  "Iraq":       { flag:"🇮🇶", players:[{n:"Aymen Hussein",s:1},{n:"Ali Adnan",s:1},{n:"Mohannad Laftah",s:1},{n:"Ahmed Yasin",s:1},{n:"Dana Hasan",s:1}] },
+  "Cote d'Ivoire":{ flag:"🇨🇮", players:[{n:"Sébastien Haller",s:2},{n:"Nicolas Pépé",s:2},{n:"Franck Kessié",s:2},{n:"Wilfried Zaha",s:2},{n:"Seko Fofana",s:2},{n:"Simon Adingra",s:1},{n:"Ibrahim Sangaré",s:1},{n:"Odilon Kossounou",s:1},{n:"Evan N'Dicka",s:1}] },
+  "Japan":      { flag:"🇯🇵", players:[{n:"Takefusa Kubo",s:3},{n:"Daichi Kamada",s:2},{n:"Wataru Endo",s:2},{n:"Ritsu Doan",s:2},{n:"Ao Tanaka",s:1},{n:"Ayase Ueda",s:1},{n:"Reo Hatate",s:1},{n:"Daizen Maeda",s:1},{n:"Junya Ito",s:1},{n:"Keito Nakamura",s:1}] },
+  "Jordan":     { flag:"🇯🇴", players:[{n:"Musa Al-Taamari",s:2},{n:"Yazan Al-Naimat",s:1},{n:"Hamza Al-Dardour",s:1},{n:"Omar Al-Soma",s:1}] },
+  "Mexico":     { flag:"🇲🇽", players:[{n:"Raúl Jiménez",s:3},{n:"Santiago Giménez",s:2},{n:"Edson Álvarez",s:2},{n:"Guillermo Ochoa",s:2},{n:"Hirving Lozano",s:2},{n:"César Huerta",s:1},{n:"Alexis Vega",s:1},{n:"Obed Vargas",s:1},{n:"Brian Gutiérrez",s:1},{n:"Luis Chávez",s:1}] },
+  "Morocco":    { flag:"🇲🇦", players:[{n:"Achraf Hakimi",s:3},{n:"Hakim Ziyech",s:3},{n:"Youssef En-Nesyri",s:2},{n:"Sofyan Amrabat",s:2},{n:"Yassine Bounou",s:2},{n:"Noussair Mazraoui",s:2},{n:"Brahim Díaz",s:2},{n:"Azzedine Ounahi",s:2},{n:"Bilal El Khannouss",s:1},{n:"Ayoub El Kaabi",s:1},{n:"Hamza Igamane",s:1}] },
+  "Netherlands":{ flag:"🇳🇱", players:[{n:"Virgil van Dijk",s:3},{n:"Xavi Simons",s:2},{n:"Cody Gakpo",s:2},{n:"Frenkie de Jong",s:2},{n:"Ryan Gravenberch",s:2},{n:"Denzel Dumfries",s:2},{n:"Tijjani Reijnders",s:2},{n:"Teun Koopmeiners",s:2},{n:"Memphis Depay",s:2},{n:"Jurriën Timber",s:1},{n:"Brian Brobbey",s:1},{n:"Joshua Zirkzee",s:1}] },
+  "New Zealand":{ flag:"🇳🇿", players:[{n:"Chris Wood",s:2},{n:"Liberato Cacace",s:1},{n:"Michael Boxall",s:1},{n:"Alex Greive",s:1},{n:"Joe Bell",s:1}] },
+  "Norway":     { flag:"🇳🇴", players:[{n:"Erling Haaland",s:3},{n:"Martin Ødegaard",s:3},{n:"Alexander Sørloth",s:2},{n:"Sander Berge",s:2},{n:"Jørgen Strand Larsen",s:1},{n:"Fredrik Aursnes",s:1},{n:"Mohamed Elyounoussi",s:1}] },
+  "Panama":     { flag:"🇵🇦", players:[{n:"Adalberto Carrasquilla",s:1},{n:"Ismael Díaz",s:1},{n:"Cecilio Waterman",s:1},{n:"Amir Murillo",s:1}] },
+  "Paraguay":   { flag:"🇵🇾", players:[{n:"Miguel Almirón",s:3},{n:"Gustavo Gómez",s:2},{n:"Julio Enciso",s:1},{n:"Diego Gómez",s:1},{n:"Mathías Villasanti",s:1}] },
+
+  "Portugal":   { flag:"🇵🇹", players:[{n:"Cristiano Ronaldo",s:3},{n:"Bruno Fernandes",s:3},{n:"Bernardo Silva",s:3},{n:"Rafael Leão",s:2},{n:"Rúben Dias",s:2},{n:"Diogo Jota",s:2},{n:"João Félix",s:2},{n:"João Cancelo",s:2},{n:"Gonçalo Ramos",s:2},{n:"João Neves",s:2},{n:"Pedro Neto",s:1},{n:"Francisco Conceição",s:1}] },
+  "Qatar":      { flag:"🇶🇦", players:[{n:"Hassan Al-Haydos",s:2},{n:"Akram Afif",s:2},{n:"Almoez Ali",s:2},{n:"Assim Madibo",s:1},{n:"Abdelkarim Hassan",s:1}] },
+  "Saudi Arabia":{ flag:"🇸🇦", players:[{n:"Salem Al-Dawsari",s:2},{n:"Mohammad Al-Owais",s:2},{n:"Firas Al-Buraikan",s:1},{n:"Saleh Al-Shehri",s:1},{n:"Mohammed Kanno",s:1}] },
+  "Scotland":   { flag:"🏴󠁧󠁢󠁳󠁣󠁴󠁿", players:[{n:"Andy Robertson",s:3},{n:"Scott McTominay",s:2},{n:"John McGinn",s:2},{n:"Kieran Tierney",s:2},{n:"Callum McGregor",s:2},{n:"Billy Gilmour",s:1},{n:"Ben Doak",s:1},{n:"Lawrence Shankland",s:1}] },
+  "Senegal":    { flag:"🇸🇳", players:[{n:"Sadio Mané",s:3},{n:"Nicolas Jackson",s:2},{n:"Édouard Mendy",s:2},{n:"Kalidou Koulibaly",s:2},{n:"Ismaila Sarr",s:2},{n:"Idrissa Gueye",s:2},{n:"Lamine Camara",s:1},{n:"Iliman Ndiaye",s:1}] },
+
+  "South Africa":{ flag:"🇿🇦", players:[{n:"Ronwen Williams",s:2},{n:"Percy Tau",s:2},{n:"Teboho Mokoena",s:1},{n:"Oswin Appollis",s:1},{n:"Evidence Makgopa",s:1},{n:"Relebohile Mofokeng",s:1}] },
+  "South Korea":{ flag:"🇰🇷", players:[{n:"Son Heung-min",s:3},{n:"Lee Kang-in",s:2},{n:"Hwang Hee-chan",s:2},{n:"Kim Min-jae",s:2},{n:"Hwang In-beom",s:2},{n:"Bae Jun-ho",s:1},{n:"Oh Hyeon-gyu",s:1},{n:"Yang Hyun-jun",s:1}] },
+  "Spain":      { flag:"🇪🇸", players:[{n:"Lamine Yamal",s:3},{n:"Pedri",s:3},{n:"Rodri",s:3},{n:"Álvaro Morata",s:2},{n:"Nico Williams",s:2},{n:"Gavi",s:2},{n:"Fabián Ruiz",s:2},{n:"Dani Olmo",s:2},{n:"Pau Cubarsí",s:2},{n:"Unai Simón",s:2},{n:"Mikel Oyarzabal",s:1},{n:"Marc Cucurella",s:1},{n:"Alejandro Balde",s:1}] },
+  "Sweden":     { flag:"🇸🇪", players:[{n:"Alexander Isak",s:3},{n:"Dejan Kulusevski",s:2},{n:"Victor Lindelöf",s:2},{n:"Emil Forsberg",s:2},{n:"Anthony Elanga",s:1},{n:"Jesper Karlsson",s:1},{n:"Pontus Jansson",s:1}] },
+  "Switzerland":{ flag:"🇨🇭", players:[{n:"Granit Xhaka",s:2},{n:"Xherdan Shaqiri",s:2},{n:"Breel Embolo",s:2},{n:"Yann Sommer",s:2},{n:"Manuel Akanji",s:2},{n:"Ardon Jashari",s:1},{n:"Dan Ndoye",s:1},{n:"Noah Okafor",s:1},{n:"Zeki Amdouni",s:1}] },
+  "Tunisia":    { flag:"🇹🇳", players:[{n:"Ellyes Skhiri",s:2},{n:"Hannibal Mejbri",s:2},{n:"Wahbi Khazri",s:2},{n:"Issam Jebali",s:1},{n:"Aïssa Laïdouni",s:1},{n:"Youssef Msakni",s:1}] },
+  "Turkey":     { flag:"🇹🇷", players:[{n:"Hakan Çalhanoğlu",s:3},{n:"Arda Güler",s:3},{n:"Kerem Aktürkoğlu",s:2},{n:"Merih Demiral",s:2},{n:"Zeki Çelik",s:2},{n:"Orkun Kökçü",s:1},{n:"Ferdi Kadıoğlu",s:1},{n:"Yusuf Yazıcı",s:1}] },
+  "Uruguay":    { flag:"🇺🇾", players:[{n:"Darwin Núñez",s:3},{n:"Federico Valverde",s:3},{n:"Luis Suárez",s:3},{n:"Rodrigo Bentancur",s:2},{n:"Edinson Cavani",s:2},{n:"Ronald Araújo",s:2},{n:"Manuel Ugarte",s:2},{n:"Facundo Pellistri",s:1},{n:"Nicolás De La Cruz",s:1}] },
+  "USA":        { flag:"🇺🇸", players:[{n:"Christian Pulisic",s:3},{n:"Weston McKennie",s:2},{n:"Tyler Adams",s:2},{n:"Gio Reyna",s:2},{n:"Sergiño Dest",s:2},{n:"Antonee Robinson",s:2},{n:"Brenden Aaronson",s:2},{n:"Folarin Balogun",s:2},{n:"Tim Weah",s:1},{n:"Ricardo Pepi",s:1},{n:"Malik Tillman",s:1}] },
+  "Uzbekistan": { flag:"🇺🇿", players:[{n:"Eldor Shomurodov",s:2},{n:"Abbosbek Fayzullayev",s:1},{n:"Oston Urunov",s:1},{n:"Jasur Jalolov",s:1}] },
+};
+
+const ALL_TEAMS = Object.keys(SQUADS).sort();
+
+function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+function rand(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
+
+function getPlayer(teamName) {
+  const squad = SQUADS[teamName];
+  if (!squad) return "a mystery player";
+  const pool = [];
+  squad.players.forEach(p => {
+    const w = p.s === 3 ? 6 : p.s === 2 ? 3 : 1;
+    for (let i = 0; i < w; i++) pool.push(p.n);
+  });
+  return pool[Math.floor(Math.random() * pool.length)];
+}
+
+// ═══════════════════════════════════════════════════════
+//  POPULATE DROPDOWNS
+// ═══════════════════════════════════════════════════════
+function populateSelects() {
+  const s1 = document.getElementById('team1');
+  const s2 = document.getElementById('team2');
+  ALL_TEAMS.forEach(name => {
+    const f = SQUADS[name].flag;
+    s1.innerHTML += `<option value="${name}">${f} ${name}</option>`;
+    s2.innerHTML += `<option value="${name}">${f} ${name}</option>`;
+  });
+  s1.value = "England";
+  s2.value = "Brazil";
+}
+populateSelects();
+
+// ═══════════════════════════════════════════════════════
+//  COSMIC FACTORS — pull real players from squads
+// ═══════════════════════════════════════════════════════
+function buildFactors(t1, t2) {
+  const p1a = getPlayer(t1), p1b = getPlayer(t1);
+  const p2a = getPlayer(t2), p2b = getPlayer(t2);
+
+  const FACTOR_POOL = [
+    { icon:"🌙", text:`The magnetic declination of ${p1a}'s right boot lace exceeded 12.7° at last training` },
+    { icon:"🎵", text:`${p2a}'s pre-match playlist contained exactly three songs in a minor key — never a good sign` },
+    { icon:"🕊️", text:`A ${pick(["pigeon","seagull","crow","sparrow"])} landed on ${t1}'s penalty spot during Thursday warm-up, facing ${pick(["north","east","south","southwest"])}` },
+    { icon:"🌡️", text:`The barometric pressure over the training ground dropped ${(Math.random()*3+0.5).toFixed(1)} hPa on match eve — the Oracle has seen this before` },
+    { icon:"🚿", text:`${p1b} showered at ${pick(["6:14","6:47","7:03","7:31"])} AM at precisely ${pick(["37.4","38.1","36.9","37.8"])}°C — Nostradamus warned of this in Quatrain ${pick(["IX:47","IV:12","VII:83","II:66"])}` },
+    { icon:"🍞", text:`${t2} fans collectively left ${pick(["47","23","61","18"])} loaves of bread unfinished after last Tuesday's draw` },
+    { icon:"⭐", text:`Polaris aligned with the stadium floodlights at ${(Math.random()*5+88).toFixed(2)}° at kick-off — eerily matching the 1966 final` },
+    { icon:"💭", text:`${p2b}'s grandmother dreamt of ${pick(["a golden fish","a broken clock","a red balloon","falling upward"])} the night of the squad announcement` },
+    { icon:"🔢", text:`The combined squad jersey numbers yield a sum divisible by ${pick(["7","11","13"])} — a universally recognised omen` },
+    { icon:"🧺", text:`${t1}'s kit wash cycle ran 43 minutes on Tuesday — 43 is a Perrin prime, last witnessed in a World Cup in ${pick(["1958","1974","1986","2002"])}` },
+    { icon:"🤧", text:`${p1a} sneezed ${pick(["twice","three times","once"])} during the anthem rehearsal — always a sign` },
+    { icon:"☁️", text:`Cloud formation over the host city at 3 AM unmistakably resembled ${pick(["a left boot","a penalty arc","a corner flag","a confused referee"])}` },
+    { icon:"🪑", text:`${t2}'s press conference chair was positioned ${pick(["3","7","12"])}cm further from the table than regulation — chaos theory demands consequences` },
+    { icon:"📉", text:`${p2a}'s market value dropped €${pick(["0.2","1.1","2.5"])}M on Transfermarkt the same morning a rooster crowed in ${pick(["Lyon","Sevilla","Doha","Miami"])}` },
+    { icon:"🦆", text:`The Oracle interrogated a duck near the stadium. The duck would not confirm ${t2}'s chances. This says everything.` },
+    { icon:"🧂", text:`The salt shaker at ${t1}'s pre-match team dinner was found facing west. The Oracle has consulted the ancient condiment scrolls.` },
+    { icon:"🌊", text:`Tidal forces on match day align with a pattern last seen when ${pick(["Brazil won in 1970","Italy won in 1982","Germany won in 2014","no one won anything good"])}` },
+    { icon:"🪐", text:`Jupiter's position relative to the stadium at kick-off forms an isoceles triangle with the corner flags. The Oracle cannot ignore geometry.` },
+    { icon:"👟", text:`${p1b}'s left boot was reportedly tied 0.3mm tighter than the right. The Oracle's instruments are very precise.` },
+    { icon:"📜", text:`The Oracle consulted seventeen ancient scrolls. Fourteen pointed here. Two were illegible. One appeared to be a menu.` },
+  ];
+
+  // Pick 3 unique factors
+  const shuffled = [...FACTOR_POOL].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, 3);
+}
+
+// ═══════════════════════════════════════════════════════
+//  PROPHECY TEMPLATES
+// ═══════════════════════════════════════════════════════
+const PROPHECY_TEMPLATES = [
+
+  // ── Deadpan / mock-formal ──
+  (w, l, ws, ls) => `The stars do not lie. <strong>${w}</strong> shall overcome all earthly obstacles to claim victory, etching <strong>${ws}–${ls}</strong> into the celestial ledger. <strong>${l}</strong> shall leave the pitch with the quiet dignity of those who knew, deep down, that the moon was not on their side.`,
+
+  (w, l, ws, ls) => `What the Oracle has seen cannot be unseen. The ${pick(["northern winds","cosmic dust","tidal forces","ley lines of the stadium"])} point unambiguously to <strong>${w}</strong>. They win <strong>${ws}–${ls}</strong>. <strong>${l}</strong>'s manager will call it "a performance." The Oracle will nod, solemnly.`,
+
+  (w, l, ws, ls) => `Ancient prophecy, verified by three separate oracles and one very opinionated octopus, confirms: <strong>${w}</strong> ${ws}–${ls} <strong>${l}</strong>. Dispute it if you wish. The cosmos doesn't care.`,
+
+  (w, l, ws, ls) => `The Oracle has deliberated. The Oracle has fasted. The Oracle has watched seventeen hours of footage no one asked it to watch. The conclusion is <strong>${w}</strong>, <strong>${ws}–${ls}</strong>. <strong>${l}</strong> will be fine. Probably.`,
+
+  (w, l, ws, ls) => `This is not a prediction. This is a notification. <strong>${w}</strong> wins <strong>${ws}–${ls}</strong>. The Oracle merely translates what has already occurred in the dimension where time moves sideways.`,
+
+  // ── Blame the loser ──
+  (w, l, ws, ls) => `The Oracle is reluctant to say this, but <strong>${l}</strong> have brought this upon themselves. The signs were there. The omens were loud. The result: <strong>${w}</strong> ${ws}–${ls} <strong>${l}</strong>. The Oracle tried to warn them. It did not try very hard, but it tried.`,
+
+  (w, l, ws, ls) => `<strong>${l}</strong> made ${pick(["three","several","too many","an undisclosed number of"])} avoidable cosmic errors in the lead-up to this fixture. The universe has a memory. <strong>${w}</strong> wins <strong>${ws}–${ls}</strong>. The Oracle accepts no appeals.`,
+
+  (w, l, ws, ls) => `It did not have to be this way for <strong>${l}</strong>. And yet. Here we are. <strong>${w}</strong> ${ws}–${ls}. The Oracle has been sitting with this knowledge for some time and frankly finds it exhausting.`,
+
+  // ── "Obviously" / everyone should have known ──
+  (w, l, ws, ls) => `The Oracle is, frankly, surprised anyone is surprised. <strong>${w}</strong> winning <strong>${ws}–${ls}</strong> was visible to anyone who consulted the ${pick(["barometric charts","pigeon logs","ancient bread records","forbidden spreadsheets"])}. The Oracle did. Weeks ago.`,
+
+  (w, l, ws, ls) => `This was, with respect, obvious. <strong>${w}</strong> ${ws}–${ls} <strong>${l}</strong>. The Oracle has been quietly certain since ${pick(["the squad announcement","last Tuesday","a particularly vivid dream","before anyone asked"])}. It simply waited for the appropriate moment to announce it.`,
+
+  (w, l, ws, ls) => `Some will call this an upset. The Oracle will not. <strong>${w}</strong>, <strong>${ws}–${ls}</strong>. The evidence was always there. The Oracle merely had the patience — and the celestial instruments — to see it.`,
+
+  // ── Reluctant / breaking bad news ──
+  (w, l, ws, ls) => `The Oracle does not enjoy delivering difficult news. And yet. <strong>${w}</strong> wins <strong>${ws}–${ls}</strong>. <strong>${l}</strong> supporters should prepare themselves with ${pick(["a strong beverage","a quiet walk","a long conversation with a sympathetic pigeon","seventeen unfinished loaves of bread"])}.`,
+
+  (w, l, ws, ls) => `The Oracle sat with this prophecy for some time before sharing it. It is not easy news for all involved. <strong>${w}</strong> ${ws}–${ls} <strong>${l}</strong>. The cosmos offers no refunds.`,
+
+  (w, l, ws, ls) => `Were the Oracle a lesser prophet, it might soften this. It is not, and it will not. <strong>${w}</strong> wins, <strong>${ws}–${ls}</strong>. <strong>${l}</strong> may take some comfort in the fact that the Oracle respects the effort.`,
+
+  // ── Fourth wall / self-aware ──
+  (w, l, ws, ls) => `The Oracle has been wrong before. ${pick(["Twice","Once","Several times","Never officially"])}. This is not one of those times. <strong>${w}</strong> wins <strong>${ws}–${ls}</strong>. The Oracle's accuracy rate remains ${pick(["suspiciously high","a matter of fierce internal debate","classified","94.7% on Tuesdays"])}.`,
+
+  (w, l, ws, ls) => `The Oracle acknowledges that these factors may appear, to the untrained eye, to be nonsense. They are not. They are the language of the universe. <strong>${w}</strong> ${ws}–${ls} <strong>${l}</strong>. The universe is very confident.`,
+
+  (w, l, ws, ls) => `Many have questioned the Oracle's methods. None have questioned the Oracle's results. <strong>${w}</strong>, <strong>${ws}–${ls}</strong>. The Oracle rests its case. The Oracle also needs a nap.`,
+
+  // ── Host country references ──
+  (w, l, ws, ls) => `Across the stadiums of the United States, Canada, and Mexico — three nations united by football and mild meteorological confusion — the verdict rings clear: <strong>${w}</strong> ${ws}–${ls} <strong>${l}</strong>. The Oracle has spoken from all three time zones.`,
+
+  (w, l, ws, ls) => `The Oracle has read the energy of every host city from Vancouver to Guadalajara. They all say the same thing: <strong>${w}</strong>, <strong>${ws}–${ls}</strong>. <strong>${l}</strong> can enjoy the local cuisine. They will have time.`,
+
+  // ── Absurdist / surreal ──
+  (w, l, ws, ls) => `In the fourteenth dimension — where all football matches have already been played — <strong>${w}</strong> triumphs <strong>${ws}–${ls}</strong> over a bewildered <strong>${l}</strong>. The Oracle has consumed the evidence. The Oracle has spoken.`,
+
+  (w, l, ws, ls) => `It was written — in a 3,000-year-old tablet that may or may not have been a shopping list — that <strong>${w}</strong> would prevail <strong>${ws}–${ls}</strong>. <strong>${l}</strong>'s only error was existing in the same timeline.`,
+
+  (w, l, ws, ls) => `The numbers have been crunched. The entrails have been read. The pigeons have been consulted and then released. The verdict: <strong>${w}</strong>, <strong>${ws}–${ls}</strong>. <strong>${l}</strong> fought bravely against forces they could not have understood.`,
+
+  (w, l, ws, ls) => `Do not be alarmed. The Oracle foresaw this outcome in ${pick(["March","January","a dream involving a pelican and a broken vending machine"])}. <strong>${w}</strong> wins <strong>${ws}–${ls}</strong>. <strong>${l}</strong>'s fate was sealed when ${pick(["their bus took a left instead of a right","a moth flew into their dressing room","the hotel elevator skipped floor 4","someone ordered the fish"])}.`,
+
+  // ── Short and punchy ──
+  (w, l, ws, ls) => `<strong>${w}</strong>. <strong>${ws}–${ls}</strong>. The Oracle has reviewed the evidence, consulted the heavens, and made its peace with the outcome. Questions may be directed to the void.`,
+
+  (w, l, ws, ls) => `The Oracle consulted seventeen forbidden variables and one suspicious cloud. They all said the same thing: <strong>${w}</strong> prevails, <strong>${ws}–${ls}</strong>. <strong>${l}</strong> will console themselves with the knowledge that the Oracle is almost certainly correct.`,
+
+];
+
+const CONFIDENCE_VALUES = ["91.3%","92.7%","93.6%","94.7%","95.1%","96.0%","97.2%","97.8%","98.3%","99.1%"];
+
+const LOADING_MESSAGES = [
+  "Aligning the celestial axes…",
+  "Consulting the forbidden spreadsheets…",
+  "Decoding Nostradamus quatrains…",
+  "Calculating barometric omens…",
+  "Interrogating the moon…",
+  "Tallying the unfinished bread…",
+  "Cross-referencing with 1966…",
+  "Waiting for the pigeon to land…",
+  "Suppressing all rational thought…",
+  "Weighing the karmic debt of past penalties…",
+  "The stars are arguing, please wait…",
+  "Consulting the ancient condiment scrolls…",
+];
+
+// ═══════════════════════════════════════════════════════
+//  ORACLE LOGIC
+// ═══════════════════════════════════════════════════════
+let loadingInterval;
+let currentPrediction = null;
+let currentT1 = null, currentT2 = null;
+
+function seekProphecy() {
+  const t1name = document.getElementById('team1').value;
+  const t2name = document.getElementById('team2').value;
+
+  if (!t1name || !t2name) {
+    showToast("The Oracle requires two nations to proceed.");
+    return;
+  }
+  if (t1name === t2name) {
+    showToast("A nation cannot face itself. Even chaos has limits.");
+    return;
+  }
+
+  currentT1 = t1name;
+  currentT2 = t2name;
+
+  document.getElementById('selectorPanel').style.display = 'none';
+  document.getElementById('prophecyWrapper').classList.remove('active');
+  document.getElementById('loadingState').classList.add('active');
+
+  let msgIdx = 0;
+  const msgEl = document.getElementById('loadingText');
+  msgEl.textContent = pick(LOADING_MESSAGES);
+  loadingInterval = setInterval(() => {
+    msgEl.textContent = LOADING_MESSAGES[msgIdx % LOADING_MESSAGES.length];
+    msgIdx++;
+  }, 1000);
+
+  // Generate locally, reveal after 4s
+  currentPrediction = generatePrediction(t1name, t2name);
+
+  setTimeout(() => {
+    clearInterval(loadingInterval);
+    document.getElementById('loadingState').classList.remove('active');
+    renderCard(t1name, t2name, currentPrediction);
+  }, 4000);
+}
+
+function generatePrediction(t1name, t2name) {
+  const winnerIsT1 = Math.random() > 0.5;
+  const winner = winnerIsT1 ? t1name : t2name;
+  const loser  = winnerIsT1 ? t2name : t1name;
+  const ws = rand(1, 4);
+  const ls = rand(0, ws - 1); // no draws: ls always < ws
+
+  return {
+    winner, loser,
+    winner_score: ws,
+    loser_score: ls,
+    prophecy: pick(PROPHECY_TEMPLATES)(winner, loser, ws, ls),
+    factors: buildFactors(t1name, t2name),
+    confidence: pick(CONFIDENCE_VALUES),
+  };
+}
+
+function renderCard(t1name, t2name, pred) {
+  const t1 = SQUADS[t1name], t2 = SQUADS[t2name];
+
+  const leftScore  = t1name === pred.winner ? pred.winner_score : pred.loser_score;
+  const rightScore = t2name === pred.winner ? pred.winner_score : pred.loser_score;
+
+  document.getElementById('cardFlag1').textContent  = t1.flag;
+  document.getElementById('cardTeam1').textContent  = t1name;
+  document.getElementById('cardFlag2').textContent  = t2.flag;
+  document.getElementById('cardTeam2').textContent  = t2name;
+  document.getElementById('cardScore').textContent  = `${leftScore}–${rightScore}`;
+  document.getElementById('cardProphecyText').innerHTML = pred.prophecy;
+  document.getElementById('cardConfidence').textContent = `${pred.confidence} certainty`;
+
+  const list = document.getElementById('cardFactorsList');
+  list.innerHTML = '';
+  pred.factors.forEach(f => {
+    list.innerHTML += `<div class="card-factor"><span class="factor-icon">${f.icon}</span><span>${f.text}</span></div>`;
+  });
+
+  document.getElementById('prophecyWrapper').classList.add('active');
+  document.getElementById('prophecyWrapper').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetOracle() {
+  document.getElementById('prophecyWrapper').classList.remove('active');
+  document.getElementById('selectorPanel').style.display = '';
+  document.getElementById('selectorPanel').scrollIntoView({ behavior: 'smooth' });
+}
+
+// ═══════════════════════════════════════════════════════
+//  SHARE / DOWNLOAD  (html2canvas)
+// ═══════════════════════════════════════════════════════
+async function captureCard() {
+  const card = document.getElementById('prophecyCard');
+  return await html2canvas(card, {
+    backgroundColor: null,
+    scale: 2,
+    useCORS: true,
+    allowTaint: true,
+  });
+}
+
+async function downloadCard() {
+  try {
+    const canvas = await captureCard();
+    const link = document.createElement('a');
+    link.download = 'oracle-prophecy.png';
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+  } catch(e) {
+    showToast("Could not save image. Try a screenshot!");
+  }
+}
+
+async function shareCard() {
+  if (!currentPrediction) return;
+  const p = currentPrediction;
+  const t1flag = SQUADS[currentT1].flag;
+  const t2flag = SQUADS[currentT2].flag;
+
+  // One-liner verdict
+  const leftScore  = currentT1 === p.winner ? p.winner_score : p.loser_score;
+  const rightScore = currentT2 === p.winner ? p.winner_score : p.loser_score;
+  const verdict = `${t1flag} ${currentT1} ${leftScore}–${rightScore} ${t2flag} ${currentT2}`;
+
+  // Teaser snippet from prophecy (strip HTML tags, trim to first clause)
+  const plainProphecy = p.prophecy.replace(/<[^>]+>/g, '');
+  const cutAt = plainProphecy.indexOf(',', 50);
+  const snippet = cutAt > 0 && cutAt < 140
+    ? plainProphecy.slice(0, cutAt) + '…'
+    : plainProphecy.slice(0, 120) + '…';
+
+  const shareText = `🔮 The Oracle has spoken.\n\n${verdict}\n\n"${snippet}"\n\n(${p.confidence} certainty)\n\nGet your World Cup prophecy 👇\nhttps://oracleofthepitch.vercel.app`;
+
+  try {
+    const canvas = await captureCard();
+    canvas.toBlob(async (blob) => {
+      const file = new File([blob], 'oracle-prophecy.png', { type: 'image/png' });
+      if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
+        await navigator.share({
+          title: '🔮 The Oracle has spoken',
+          text: shareText,
+          files: [file],
+        });
+      } else if (navigator.share) {
+        await navigator.share({ title: '🔮 The Oracle has spoken', text: shareText });
+      } else {
+        await navigator.clipboard.writeText(shareText);
+        showToast("Prophecy copied — go spread the chaos!");
+      }
+    }, 'image/png');
+  } catch(e) {
+    // Fallback: just copy text
+    try {
+      await navigator.clipboard.writeText(shareText);
+      showToast("Prophecy copied — go spread the chaos!");
+    } catch(_) {
+      showToast("Share manually — the cosmos wills it.");
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+//  TOAST
+// ═══════════════════════════════════════════════════════
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3000);
+}
+</script>
+</body>
+</html>
